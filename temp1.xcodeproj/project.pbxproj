@@ -24,6 +24,7 @@
 		E7F061D2180FDF4000CDA180 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F061AB180FDF4000CDA180 /* UIKit.framework */; };
 		E7F061DA180FDF4000CDA180 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E7F061D8180FDF4000CDA180 /* InfoPlist.strings */; };
 		E7F061DC180FDF4000CDA180 /* temp1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F061DB180FDF4000CDA180 /* temp1Tests.m */; };
+		E7F061E7180FE80300CDA180 /* Main_iPhone2 in Resources */ = {isa = PBXBuildFile; fileRef = E7F061E5180FE80300CDA180 /* Main_iPhone2 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		E7F061D7180FDF4000CDA180 /* temp1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "temp1Tests-Info.plist"; sourceTree = "<group>"; };
 		E7F061D9180FDF4000CDA180 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E7F061DB180FDF4000CDA180 /* temp1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = temp1Tests.m; sourceTree = "<group>"; };
+		E7F061E6180FE80300CDA180 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = Base; path = Base.lproj/Main_iPhone2; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				E7F061BF180FDF4000CDA180 /* temModelController.h */,
 				E7F061C0180FDF4000CDA180 /* temModelController.m */,
 				E7F061C2180FDF4000CDA180 /* Main_iPhone.storyboard */,
+				E7F061E5180FE80300CDA180 /* Main_iPhone2 */,
 				E7F061C5180FDF4000CDA180 /* Main_iPad.storyboard */,
 				E7F061C8180FDF4000CDA180 /* Images.xcassets */,
 				E7F061AE180FDF4000CDA180 /* Supporting Files */,
@@ -242,6 +245,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7F061E7180FE80300CDA180 /* Main_iPhone2 in Resources */,
 				E7F061C7180FDF4000CDA180 /* Main_iPad.storyboard in Resources */,
 				E7F061C9180FDF4000CDA180 /* Images.xcassets in Resources */,
 				E7F061C4180FDF4000CDA180 /* Main_iPhone.storyboard in Resources */,
@@ -321,6 +325,14 @@
 				E7F061D9180FDF4000CDA180 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E7F061E5180FE80300CDA180 /* Main_iPhone2 */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7F061E6180FE80300CDA180 /* Base */,
+			);
+			name = Main_iPhone2;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
